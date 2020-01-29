@@ -58,7 +58,7 @@ objects:
         forcePull: true
         from:
           kind: ImageStreamTag
-          name: registry.access.redhat.com/jboss-eap-7/eap72-openshift:latest
+          name: eap72-openshift-hardened:latest
           namespace: openshift
       type: Source
     triggers:
